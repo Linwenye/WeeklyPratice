@@ -1,6 +1,9 @@
 package week1;
 
+import java.time.LocalDate;
+
 public class Perm {
+	
 	static int a[] = { 1, 2, 3, 4, 5 };
 
 	static void perm(int a[],int k,int m) {
@@ -25,5 +28,6 @@ public class Perm {
 	}
 	public static void main(String[] args) {
 		perm(a, 0, a.length);
+//		System.out.println(LocalDate.of(2016, 2, 3).toString());
 	}
 }
